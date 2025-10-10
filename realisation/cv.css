@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(180deg, #f6e6fa, #fbd4f4);
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: linear-gradient(90deg, #f4ebf5 ,#e5a8ed);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    color: rgb(109, 105, 109);
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    font-size: 18px;
+    color: beige;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 30px;
+    transition: 0.3s;
+    }
+    .navbar a {
+        position: relative;
+      }
+      
+      .navbar a::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        width: 0%;
+        height: 2px;
+        background: white;
+        transition: width 0.3s;
+      }
+      
+      .navbar a:hover::after {
+        width: 100%;
+      }
+      
+    main{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 20px;
+        padding: 20px;
+        max-width: 1000px;
+        margin: 120px auto 0 auto;
+    }
+    section {
+        background-color: #f9f2fa;
+        padding: 15px;
+        border-radius: 30px;
+      }
+      section h2 {
+        color: #818282;
+        margin-bottom: 20px;
+        text-align: center;
+        padding: 5px;
+      }
+      .Education{
+        text-align: center;
+        padding: 120px;
+      }
+    
+      section p, section ul {
+        margin-bottom: 10px;
+      }
+    
+      ul {
+        list-style: none;
+        padding-left: 0;
+        text-align: left;
+      }
+    
+      ul li {
+        padding: 5px 0;
+        border-bottom: 1px solid #ddd;
+      }
+      footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #a39f9f;
+        color: white;
+        padding: 15px;
+        margin-top: 140px;
+      }
+    
+      footer a {
+        color: #f888de;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 5px;
+      }
+
+    .heading {
+        margin-bottom: 65px;
+        margin-top: -50px;
+    }
+    .photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 1px solid #e5a8ed;
+        object-fit: cover;
+        display: block;
+        margin: 0 auto 25px auto;
+      }
+      .profile h1 {
+        text-align: center;
+        color: #6d6d6d;
+      }
+      .profile p {
+        text-align: center;
+        color: #777;
+      }
+      
